@@ -28,4 +28,17 @@
        
         color: #9e9fa5;
     }
+
+    @media only screen and (max-width: 500px){
+        h1{
+        font-size: 2.2em;
+        margin: 1px;
+        color: #b8c2dd;
+    }
+    h3{
+        font-size: 1.2em;
+       
+        color: #9e9fa5;
+    }
+    }
 </style>

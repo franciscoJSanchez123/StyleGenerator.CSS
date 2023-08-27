@@ -364,4 +364,27 @@ hr{
     margin-bottom: 54px;
     margin-top: 40px;
 }
+
+@media only screen and (max-width: 900px){
+
+  .main-section{
+ 
+  flex-direction: column;
+
+}
+    .view{
+
+      width:96%;
+      position: inherit;
+    }
+
+    .control{
+  
+  width: 96%;
+
+}
+  
+  }
+
+
 </style>
