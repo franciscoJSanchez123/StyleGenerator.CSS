@@ -2,3 +2,24 @@ body{
     padding: 0%;
     margin: 0%;
 }
+:root{
+    --primary-bg-color:#EEEEEE;
+    --secundary-bg-color:#b8c2dd;
+   
+}
+body {
+    overflow-x: hidden;
+      --scrollbar-background: var(--secundary-bg-color);
+    }
+  
+  
+  body::-webkit-scrollbar {   
+      background: var(--primary-bg-color);
+      width: 10px;
+  }
+  
+  body::-webkit-scrollbar-thumb { 
+      background-color: var(--scrollbar-background);;
+      border-radius: 20px;     
+     
+    }
